@@ -1,8 +1,9 @@
 module.exports = {
   future: {
     removeDeprecatedGapUtilities: true,
+    purgeLayersByDefault: true,
   },
-  purge: ['./components/**/*.{js,ts,jsx,tsx}', './pages/**/*.{js,ts,jsx,tsx}'],
+  // purge: ['./components/**/*.{js,ts,jsx,tsx}', './pages/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
       colors: {
@@ -11,5 +12,7 @@ module.exports = {
     },
   },
   variants: {},
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ]
 }
