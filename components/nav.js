@@ -25,7 +25,7 @@ export default function Nav() {
             </li>
           ))}
           <li className="my-5">
-            <a href="/volunteer" className="nav text-xl uppercase no-underline bg-white text-black rounded-full py-2 px-4">
+            <a href="/volunteer" className="nav text-xl uppercase no-underline bg-red-700 text-white rounded-full py-2 px-4">
               Volunteer
             </a>
           </li>
