@@ -12,7 +12,7 @@ export default function Nav() {
         <li>
           <Link href="/">
             <a className="logo no-underline">
-              <img src="/images/logo.svg" alt="logo" />
+              <img src={require("../public/images/logo.svg")} alt="logo" />
             </a>
           </Link>
         </li>
