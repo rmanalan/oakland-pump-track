@@ -12,7 +12,7 @@ export default function Nav() {
         <li>
           <Link href="/">
             <a className="logo no-underline">
-              <img src="/images/oakland-pump-track.svg" alt="logo" />
+              <img src="/images/logo.svg" alt="logo" />
             </a>
           </Link>
         </li>
