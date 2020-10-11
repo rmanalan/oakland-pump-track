@@ -1,8 +1,9 @@
 @tailwind base;
 
 /* Write your own custom base styles here */
-html, body {
-  font-family: 'Source Sans Pro', sans-serif;
+html,
+body {
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .logo {
@@ -14,8 +15,11 @@ html, body {
   position: relative;
   height: 480px;
 }
+.hero-sm {
+  height: 300px;
+}
 .hero::after {
-  content: ' ';
+  content: " ";
   display: block;
   position: absolute;
   left: 0;
@@ -33,7 +37,7 @@ html, body {
 }
 
 .main {
-  font-family: 'EB Garamond', serif;
+  font-family: "EB Garamond", serif;
 }
 
 /* Start purging... */

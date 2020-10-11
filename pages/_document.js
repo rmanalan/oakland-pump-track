@@ -8,12 +8,12 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html lang="en">
         <Head>
-          <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet"></link>
-          <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet"></link>
+          <meta name="description" content="Situated in the Joaquin Miller Park, the Oakland Pump Track is now open to the public!"/>
+          <link href={`https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|EB+Garamond&display=swap`} rel="stylesheet"></link>
         </Head>
-        <body className="leading-normal tracking-normal">
+        <body>
           <Main />
           <NextScript />
         </body>

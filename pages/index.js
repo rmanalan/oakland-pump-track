@@ -1,9 +1,13 @@
 import Layout from "../components/layout";
 import Link from "next/link";
+import Head from 'next/head'
 
 export default function IndexPage() {
   return (
     <Layout>
+      <Head>
+        <title>Oakland Pump Track</title>
+      </Head>
       <article>
         <h2>It's Official.</h2>
 
