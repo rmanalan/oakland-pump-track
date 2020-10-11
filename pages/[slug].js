@@ -6,7 +6,7 @@ export default function Page({ pageData }) {
   return (
     <Layout>
       <Head>
-        <title>{pageData.title}</title>
+        <title>Oakland Pump Track: {pageData.title}</title>
       </Head>
       <article>
         <div dangerouslySetInnerHTML={{ __html: pageData.contentHtml }} />
