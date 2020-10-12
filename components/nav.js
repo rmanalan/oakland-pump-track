@@ -8,11 +8,11 @@ const links = [
 export default function Nav() {
   return (
     <nav className="absolute top-0 w-full">
-      <ul className="flex justify-between p-6 pr-10">
-        <li>
+      <ul className="flex justify-between p-3 md:p-6 lg:p-6 xl:p-6 pr-10">
+        <li className="w-16 md:w-24 lg:w-32 xl:w-40">
           <Link href="/">
-            <a className="logo no-underline">
-              <img src={require("../public/images/logo.svg")} alt="logo" />
+            <a className="no-underline">
+              <img className="logo" src={require("../public/images/logo.svg")} alt="logo" />
             </a>
           </Link>
         </li>

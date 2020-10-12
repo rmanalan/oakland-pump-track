@@ -6,29 +6,6 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-.logo {
-  display: block;
-  width: 150px;
-}
-
-.logo-sm {
-  width: 100px;
-}
-
-.logo img {
-  filter: drop-shadow( 0 0 2px rgba(0, 0, 0, .7));
-}
-
-.hero {
-  /* background-image: url(/images/hero2.jpg);
-  background-blend-mode: overlay;
-  background-position: center -100px; */
-  height: 600px;
-}
-.hero-sm {
-  height: 300px;
-}
-
 .thumbs-wrapper {
   display: none;
 }
@@ -47,6 +24,9 @@ body {
 }
 .nav:hover {
   @apply bg-white text-black rounded-full py-2 px-4;
+}
+.logo {
+  filter: drop-shadow( 0 0 2px rgba(0, 0, 0, .7));
 }
 
 /* Start purging... */
