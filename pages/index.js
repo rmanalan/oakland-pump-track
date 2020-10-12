@@ -1,10 +1,11 @@
 import Layout from "../components/layout";
 import Link from "next/link";
-import Head from 'next/head'
+import Head from "next/head";
+import { getGalleryImages } from "../lib/galleryImages";
 
-export default function IndexPage() {
+export default function Home({ imagePaths }) {
   return (
-    <Layout>
+    <Layout imagePaths={imagePaths}>
       <Head>
         <title>Oakland Pump Track</title>
       </Head>
@@ -30,18 +31,16 @@ export default function IndexPage() {
 
         <h2>The Rules</h2>
 
-        <p>
-          <ol>
-            <li>Have fun!</li>
-            <li>Treat others with respect</li>
-            <li>Max of 4 riders on the track at once</li>
-            <li>Do not ride on top of berms</li>
-            <li>
-              <b>NO RIDING IN THE WET!</b>
-            </li>
-            <li>Do not add to or modify the track</li>
-          </ol>
-        </p>
+        <ol>
+          <li>Have fun!</li>
+          <li>Treat others with respect</li>
+          <li>Max of 4 riders on the track at once</li>
+          <li>Do not ride on top of berms</li>
+          <li>
+            <b>NO RIDING IN THE WET!</b>
+          </li>
+          <li>Do not add to or modify the track</li>
+        </ol>
 
         <h2>Next Steps</h2>
 
@@ -63,4 +62,12 @@ export default function IndexPage() {
       </article>
     </Layout>
   );
+}
+
+export async function getStaticProps() {
+  return {
+    props: {
+      imagePaths: await getGalleryImages(),
+    },
+  };
 }

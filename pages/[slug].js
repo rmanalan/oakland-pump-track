@@ -1,10 +1,11 @@
 import Layout from "../components/layout";
 import Head from "next/head";
 import { getContentData, getAllContentSlugs } from "../lib/mdContent";
+import { getGalleryImages } from "../lib/galleryImages";
 
-export default function Page({ pageData }) {
+export default function Page({ pageData, imagePaths }) {
   return (
-    <Layout>
+    <Layout imagePaths={imagePaths}>
       <Head>
         <title>Oakland Pump Track: {pageData.title}</title>
       </Head>
@@ -24,10 +25,10 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const pageData = await getContentData(params.slug);
   return {
     props: {
-      pageData,
+      pageData: await getContentData(params.slug),
+      imagePaths: await getGalleryImages(),
     },
   };
 }

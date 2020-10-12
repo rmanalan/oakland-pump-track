@@ -7,7 +7,7 @@ const links = [
 
 export default function Nav() {
   return (
-    <nav>
+    <nav className="absolute top-0 w-full">
       <ul className="flex justify-between p-6 pr-10">
         <li>
           <Link href="/">
