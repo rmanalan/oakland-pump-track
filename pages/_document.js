@@ -19,7 +19,6 @@ class MyDocument extends Document {
             type="image/svg+xml"
             href={require("../public/images/logo.svg")}
           ></link>
-          <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
           <link
             href={`https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|EB+Garamond&display=swap`}
             rel="stylesheet"
@@ -29,7 +28,6 @@ class MyDocument extends Document {
           <Main />
           <NextScript />
         </body>
-        <script>feather.replace();</script>
       </Html>
     );
   }
