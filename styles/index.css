@@ -10,6 +10,10 @@ body {
   display: none;
 }
 
+.feather {
+  display: inline;
+}
+
 .main {
   font-family: "EB Garamond", serif;
 }
