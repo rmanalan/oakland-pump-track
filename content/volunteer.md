@@ -4,7 +4,7 @@ title: 'Volunteer'
 
 ## Help us!
 
-While we just completed the first phase of the Oakland Pump Track, pump tracks are never really done. The track will change over time due to wear and weather. And beside track maintenance, there may be other projects we might want to tackle to improve the overall experience at the track.
+While we just completed the first phase of the Oakland Pump Track, pump tracks are never really done. The track will change over time due to wear and weather. And beside track maintenance, there may be other projects we might want to tackle to improve the overall experience.
 
 The Oakland Pump Track belongs to you, our community. Please help us improve and maintain this pump track so that everyone can continue to enjoy it.
 
