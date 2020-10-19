@@ -3,6 +3,7 @@ import Link from 'next/link'
 const links = [
   { href: '/', label: 'Home' },
   { href: '/about', label: 'About' },
+  { href: '/volunteer', label: 'Volunteer' },
 ]
 
 export default function Nav() {
@@ -19,14 +20,16 @@ export default function Nav() {
         <ul className="md:flex lg:flex xl:flex justify-between items-center">
           {links.map(({ href, label }) => (
             <li key={`${href}${label}`} className="my-5">
-              <a href={href} className="nav text-xl mr-2 uppercase no-underline">
-                {label}
-              </a>
+              <Link href={href}>
+                <a href={href} className="nav text-xl mr-2 uppercase no-underline">
+                  {label}
+                </a>
+              </Link>
             </li>
           ))}
           <li className="my-5">
-            <a href="/volunteer" className="nav text-xl uppercase no-underline bg-red-700 text-white rounded-full py-2 px-4">
-              Volunteer
+            <a href="https://gf.me/u/y4546m" target="_blank" className="nav text-xl uppercase no-underline bg-red-700 text-white rounded-full py-2 px-4">
+              Donate
             </a>
           </li>
         </ul>
