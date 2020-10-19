@@ -21,7 +21,7 @@ export default function Nav() {
           {links.map(({ href, label }) => (
             <li key={`${href}${label}`} className="my-5">
               <Link href={href}>
-                <a href={href} className="nav text-xl mr-2 uppercase no-underline">
+                <a href={href} className="nav text-xl mr-2 uppercase no-underline bg-black bg-opacity-50 rounded-full">
                   {label}
                 </a>
               </Link>
