@@ -32,6 +32,12 @@ body {
 .logo {
   filter: drop-shadow( 0 0 2px rgba(0, 0, 0, .7));
 }
+.map {
+  @apply float-right w-1/2 h-64 ml-3 pb-3 text-center;
+}
+.map-inner {
+  @apply shadow-md w-full h-full rounded;
+}
 
 /* Start purging... */
 @tailwind utilities;
