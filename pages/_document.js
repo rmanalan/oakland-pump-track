@@ -10,6 +10,15 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-DC7DHJRJMP"
+          ></script>
+          <script>
+            window.dataLayer = window.dataLayer || []; function gtag()
+            {dataLayer.push(arguments)}
+            gtag('js', new Date()); gtag('config', 'G-DC7DHJRJMP');
+          </script>
           <meta
             name="description"
             content="Situated in Oakland's Joaquin Miller Park, the Oakland Pump Track is now open to the public!"
