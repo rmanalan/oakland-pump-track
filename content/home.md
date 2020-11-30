@@ -11,12 +11,20 @@ It is with great excitement that we can finally and officially open the Oakland 
 
 ## The Rules
 
-1. Have fun!
-2. Treat others with respect
-3. Max of 4 riders on the track at once
-4. Do not ride on top of berms
-5. **NO RIDING IN THE WET!**
-6. Do not add to or modify the track
+1. **BIKES ONLY!** No dogs, scooters, skateboards, motorized vehicles, or RC cars.
+2. Have fun!
+3. Treat others with respect
+4. Max of 4 riders on the track at once
+5. Do not ride on top of berms
+6. **NO RIDING IN THE WET!**
+7. Do not add to or modify the track
+8. Pedestrians must stay off trails and features, except where permitted. Stay visible.
+
+## Use at your own risk
+
+* Riding here is a hazardous recreational activity; per California Government Code 831.7.
+* Children 8 years old and under must be accompanied by an adult.
+* Helmets required. No exceptions.
 
 ## Next Steps
 
